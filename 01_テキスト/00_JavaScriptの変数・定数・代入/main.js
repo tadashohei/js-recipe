@@ -18,6 +18,7 @@ console.log(hensu2) // => 42
 const teisu = 42
 
 // 定数には値を再代入できない
+// eslint-disable-next-line no-const-assign
 teisu = 100 // エラー
 console.log(teisu) // => 42
 
@@ -28,4 +29,5 @@ console.log(teisu) // => 42
 
 // 複数の単語を組み合わせるときは、ふたつめ以降の単語の最初の文字を大文字にしてくっつけることが多い
 // このような書き方をキャメルケースという（大文字がキャメル＝ラクダのこぶにみえることから）
+// eslint-disable-next-line no-unused-vars
 let camelCase // camel + case
