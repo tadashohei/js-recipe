@@ -1,6 +1,6 @@
-const genkifunction = function(number){
+const genkifunction = function(){
 
-    for (let number = 1 ; number<=number; number++)
+    for (let number = 1 ; number<=24; number++)
 if (number % 3 ===0 ){
     console.log (!!!!!!)
  } else {
@@ -8,7 +8,7 @@ if (number % 3 ===0 ){
  }
 }
 
-console.log(genkifunction(24))
+console.log(genkifunction)
 
 
 
