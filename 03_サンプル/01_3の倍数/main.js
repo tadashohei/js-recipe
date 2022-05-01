@@ -4,7 +4,7 @@ const number = 24
 for (let n = 1; n <= number; n++) {
   // n を 3 で割ったあまりが 0
   if (n % 3 === 0) {
-    console.log(`${n}!!!!!!!`)
+    console.log(`${n}!!!`)
   } else {
     console.log(n)
   }
